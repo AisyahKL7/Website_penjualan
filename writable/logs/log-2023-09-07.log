@@ -1,0 +1,36 @@
+CRITICAL - 2023-09-07 03:49:42 --> Too few arguments to function App\Controllers\Penjualan::penjualanbyid(), 0 passed in F:\VICKI\APP\penjualan\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 F:\VICKI\APP\penjualan\system\CodeIgniter.php(824): App\Controllers\Penjualan->penjualanbyid()
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#5 {main}
+CRITICAL - 2023-09-07 03:49:49 --> Too few arguments to function App\Controllers\Penjualan::penjualanbyid(), 0 passed in F:\VICKI\APP\penjualan\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 F:\VICKI\APP\penjualan\system\CodeIgniter.php(824): App\Controllers\Penjualan->penjualanbyid()
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#5 {main}
+CRITICAL - 2023-09-07 03:49:57 --> Too few arguments to function App\Controllers\Penjualan::penjualanbyid(), 0 passed in F:\VICKI\APP\penjualan\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 F:\VICKI\APP\penjualan\system\CodeIgniter.php(824): App\Controllers\Penjualan->penjualanbyid()
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#5 {main}
+CRITICAL - 2023-09-07 03:50:16 --> Too few arguments to function App\Controllers\Penjualan::penjualanbyid(), 0 passed in F:\VICKI\APP\penjualan\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 F:\VICKI\APP\penjualan\system\CodeIgniter.php(824): App\Controllers\Penjualan->penjualanbyid()
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#5 {main}
+CRITICAL - 2023-09-07 03:50:25 --> Undefined variable $id
+#0 F:\VICKI\APP\penjualan\app\Controllers\Penjualan.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'F:\\VICKI\\APP\\pe...', 32)
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(824): App\Controllers\Penjualan->penjualanbyid()
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#3 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#6 {main}

@@ -1,0 +1,71 @@
+CRITICAL - 2023-08-25 04:14:27 --> strtolower(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'F:\\VICKI\\APP\\ca...', 253)
+#1 F:\VICKI\APP\cafein\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 F:\VICKI\APP\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 F:\VICKI\APP\cafein\system\Config\Services.php(570): CodeIgniter\HTTP\Request->getIPAddress()
+#4 F:\VICKI\APP\cafein\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#5 F:\VICKI\APP\cafein\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#6 F:\VICKI\APP\cafein\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#7 F:\VICKI\APP\cafein\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#8 F:\VICKI\APP\cafein\system\Common.php(909): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#9 F:\VICKI\APP\cafein\app\Controllers\Dashboard.php(21): session()
+#10 F:\VICKI\APP\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#11 F:\VICKI\APP\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#12 F:\VICKI\APP\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 F:\VICKI\APP\cafein\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 F:\VICKI\APP\cafein\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\ca...')
+#15 {main}
+CRITICAL - 2023-08-25 11:18:25 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 F:\VICKI\APP\cafein\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 F:\VICKI\APP\cafein\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 F:\VICKI\APP\cafein\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 F:\VICKI\APP\cafein\spark(45): require('F:\\VICKI\\APP\\ca...')
+#4 {main}
+CRITICAL - 2023-08-25 04:19:28 --> strtolower(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'F:\\VICKI\\APP\\ca...', 253)
+#1 F:\VICKI\APP\cafein\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 F:\VICKI\APP\cafein\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 F:\VICKI\APP\cafein\system\Config\Services.php(570): CodeIgniter\HTTP\Request->getIPAddress()
+#4 F:\VICKI\APP\cafein\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#5 F:\VICKI\APP\cafein\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#6 F:\VICKI\APP\cafein\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#7 F:\VICKI\APP\cafein\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#8 F:\VICKI\APP\cafein\system\Common.php(909): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#9 F:\VICKI\APP\cafein\app\Controllers\Dashboard.php(21): session()
+#10 F:\VICKI\APP\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#11 F:\VICKI\APP\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#12 F:\VICKI\APP\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 F:\VICKI\APP\cafein\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 F:\VICKI\APP\cafein\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\ca...')
+#15 {main}
+CRITICAL - 2023-08-25 12:00:05 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 F:\VICKI\APP\cafein\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 F:\VICKI\APP\cafein\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 F:\VICKI\APP\cafein\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 F:\VICKI\APP\cafein\spark(45): require('F:\\VICKI\\APP\\ca...')
+#4 {main}
+ERROR - 2023-08-25 05:00:57 --> Error connecting to the database: Unknown database 'cafein'
+CRITICAL - 2023-08-25 05:00:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'cafein'
+#0 F:\VICKI\APP\cafein\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 F:\VICKI\APP\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 F:\VICKI\APP\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 F:\VICKI\APP\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 F:\VICKI\APP\cafein\app\Controllers\Dashboard.php(24): CodeIgniter\BaseModel->findAll()
+#5 F:\VICKI\APP\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 F:\VICKI\APP\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 F:\VICKI\APP\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\VICKI\APP\cafein\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 F:\VICKI\APP\cafein\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\ca...')
+#10 {main}
+CRITICAL - 2023-08-25 05:17:22 --> Call to undefined function assets()
+#0 F:\VICKI\APP\cafein\system\View\View.php(214): include()
+#1 F:\VICKI\APP\cafein\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 F:\VICKI\APP\cafein\system\Common.php(1097): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 F:\VICKI\APP\cafein\app\Controllers\Dashboard.php(33): view('dashboard', Array)
+#4 F:\VICKI\APP\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#5 F:\VICKI\APP\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 F:\VICKI\APP\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\VICKI\APP\cafein\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 F:\VICKI\APP\cafein\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\ca...')
+#9 {main}

@@ -1,0 +1,296 @@
+ERROR - 2023-08-27 11:41:54 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-08-27 11:41:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 F:\VICKI\APP\cafein\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 F:\VICKI\APP\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 F:\VICKI\APP\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 F:\VICKI\APP\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 F:\VICKI\APP\cafein\app\Controllers\Dashboard.php(24): CodeIgniter\BaseModel->findAll()
+#5 F:\VICKI\APP\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 F:\VICKI\APP\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 F:\VICKI\APP\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\VICKI\APP\cafein\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 F:\VICKI\APP\cafein\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\ca...')
+#10 {main}
+ERROR - 2023-08-27 11:42:34 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-08-27 11:42:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 F:\VICKI\APP\cafein\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 F:\VICKI\APP\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 F:\VICKI\APP\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 F:\VICKI\APP\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 F:\VICKI\APP\cafein\app\Controllers\Dashboard.php(24): CodeIgniter\BaseModel->findAll()
+#5 F:\VICKI\APP\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 F:\VICKI\APP\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 F:\VICKI\APP\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\VICKI\APP\cafein\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 F:\VICKI\APP\cafein\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\ca...')
+#10 {main}
+ERROR - 2023-08-27 11:43:14 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-08-27 11:43:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 F:\VICKI\APP\cafein\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 F:\VICKI\APP\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 F:\VICKI\APP\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 F:\VICKI\APP\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 F:\VICKI\APP\cafein\app\Controllers\Dashboard.php(24): CodeIgniter\BaseModel->findAll()
+#5 F:\VICKI\APP\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 F:\VICKI\APP\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 F:\VICKI\APP\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\VICKI\APP\cafein\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 F:\VICKI\APP\cafein\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\ca...')
+#10 {main}
+ERROR - 2023-08-27 11:43:30 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-08-27 11:43:30 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 F:\VICKI\APP\cafein\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 F:\VICKI\APP\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 F:\VICKI\APP\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 F:\VICKI\APP\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 F:\VICKI\APP\cafein\app\Controllers\Dashboard.php(24): CodeIgniter\BaseModel->findAll()
+#5 F:\VICKI\APP\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 F:\VICKI\APP\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 F:\VICKI\APP\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\VICKI\APP\cafein\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 F:\VICKI\APP\cafein\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\ca...')
+#10 {main}
+ERROR - 2023-08-27 11:44:06 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-08-27 11:44:06 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 F:\VICKI\APP\cafein\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 F:\VICKI\APP\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 F:\VICKI\APP\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 F:\VICKI\APP\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 F:\VICKI\APP\cafein\app\Controllers\Dashboard.php(24): CodeIgniter\BaseModel->findAll()
+#5 F:\VICKI\APP\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 F:\VICKI\APP\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 F:\VICKI\APP\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\VICKI\APP\cafein\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 F:\VICKI\APP\cafein\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\ca...')
+#10 {main}
+ERROR - 2023-08-27 11:45:03 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-08-27 11:45:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 F:\VICKI\APP\cafein\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 F:\VICKI\APP\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 F:\VICKI\APP\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 F:\VICKI\APP\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 F:\VICKI\APP\cafein\app\Controllers\Dashboard.php(24): CodeIgniter\BaseModel->findAll()
+#5 F:\VICKI\APP\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 F:\VICKI\APP\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 F:\VICKI\APP\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\VICKI\APP\cafein\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 F:\VICKI\APP\cafein\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\ca...')
+#10 {main}
+ERROR - 2023-08-27 11:45:33 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-08-27 11:45:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 F:\VICKI\APP\cafein\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 F:\VICKI\APP\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 F:\VICKI\APP\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 F:\VICKI\APP\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 F:\VICKI\APP\cafein\app\Controllers\Dashboard.php(24): CodeIgniter\BaseModel->findAll()
+#5 F:\VICKI\APP\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 F:\VICKI\APP\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 F:\VICKI\APP\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\VICKI\APP\cafein\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 F:\VICKI\APP\cafein\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\ca...')
+#10 {main}
+ERROR - 2023-08-27 11:46:32 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-08-27 11:46:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 F:\VICKI\APP\cafein\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 F:\VICKI\APP\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 F:\VICKI\APP\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 F:\VICKI\APP\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 F:\VICKI\APP\cafein\app\Controllers\Dashboard.php(24): CodeIgniter\BaseModel->findAll()
+#5 F:\VICKI\APP\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 F:\VICKI\APP\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 F:\VICKI\APP\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\VICKI\APP\cafein\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 F:\VICKI\APP\cafein\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\ca...')
+#10 {main}
+ERROR - 2023-08-27 11:47:41 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-08-27 11:47:41 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 F:\VICKI\APP\cafein\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 F:\VICKI\APP\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 F:\VICKI\APP\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 F:\VICKI\APP\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 F:\VICKI\APP\cafein\app\Controllers\Dashboard.php(24): CodeIgniter\BaseModel->findAll()
+#5 F:\VICKI\APP\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 F:\VICKI\APP\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 F:\VICKI\APP\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\VICKI\APP\cafein\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 F:\VICKI\APP\cafein\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\ca...')
+#10 {main}
+CRITICAL - 2023-08-27 12:18:17 --> Class "App\Models\MenuModel" not found
+#0 F:\VICKI\APP\penjualan\system\CodeIgniter.php(801): App\Controllers\Laporan->__construct()
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#5 {main}
+CRITICAL - 2023-08-27 12:36:59 --> Invalid file: penjualan.php
+#0 F:\VICKI\APP\penjualan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('penjualan.php')
+#1 F:\VICKI\APP\penjualan\system\Common.php(1097): CodeIgniter\View\View->render('penjualan', Array, true)
+#2 F:\VICKI\APP\penjualan\app\Controllers\Penjualan.php(14): view('penjualan')
+#3 F:\VICKI\APP\penjualan\system\CodeIgniter.php(824): App\Controllers\Penjualan->index()
+#4 F:\VICKI\APP\penjualan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#5 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#8 {main}
+CRITICAL - 2023-08-27 12:36:59 --> Invalid file: penjualan.php
+#0 F:\VICKI\APP\penjualan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('penjualan.php')
+#1 F:\VICKI\APP\penjualan\system\Common.php(1097): CodeIgniter\View\View->render('penjualan', Array, true)
+#2 F:\VICKI\APP\penjualan\app\Controllers\Penjualan.php(14): view('penjualan')
+#3 F:\VICKI\APP\penjualan\system\CodeIgniter.php(824): App\Controllers\Penjualan->index()
+#4 F:\VICKI\APP\penjualan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#5 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#8 {main}
+CRITICAL - 2023-08-27 12:44:43 --> Class "App\Controllers\PenjualanModel" not found
+#0 F:\VICKI\APP\penjualan\system\CodeIgniter.php(801): App\Controllers\Penjualan->__construct()
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#5 {main}
+CRITICAL - 2023-08-27 12:44:57 --> Class "App\Controllers\PenjualanModel" not found
+#0 F:\VICKI\APP\penjualan\system\CodeIgniter.php(801): App\Controllers\Penjualan->__construct()
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#5 {main}
+CRITICAL - 2023-08-27 12:45:09 --> Class "App\Controllers\PenjualanModel" not found
+#0 F:\VICKI\APP\penjualan\system\CodeIgniter.php(801): App\Controllers\Penjualan->__construct()
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#5 {main}
+CRITICAL - 2023-08-27 12:45:24 --> Class "App\Controllers\PenjualanModel" not found
+#0 F:\VICKI\APP\penjualan\system\CodeIgniter.php(801): App\Controllers\Penjualan->__construct()
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#5 {main}
+CRITICAL - 2023-08-27 12:45:29 --> Class "App\Controllers\PenjualanModel" not found
+#0 F:\VICKI\APP\penjualan\system\CodeIgniter.php(801): App\Controllers\Penjualan->__construct()
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#5 {main}
+CRITICAL - 2023-08-27 12:45:41 --> Class "App\Controllers\PenjualanModel" not found
+#0 F:\VICKI\APP\penjualan\system\CodeIgniter.php(801): App\Controllers\Penjualan->__construct()
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#5 {main}
+CRITICAL - 2023-08-27 12:45:47 --> Class "App\Controllers\PenjualanModel" not found
+#0 F:\VICKI\APP\penjualan\system\CodeIgniter.php(801): App\Controllers\Penjualan->__construct()
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#5 {main}
+CRITICAL - 2023-08-27 12:46:05 --> Class "App\Controllers\PenjualanModel" not found
+#0 F:\VICKI\APP\penjualan\system\CodeIgniter.php(801): App\Controllers\Penjualan->__construct()
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#5 {main}
+CRITICAL - 2023-08-27 12:46:21 --> Class "App\Controllers\PenjualanModel" not found
+#0 F:\VICKI\APP\penjualan\system\CodeIgniter.php(801): App\Controllers\Penjualan->__construct()
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#5 {main}
+CRITICAL - 2023-08-27 12:48:29 --> Undefined property: App\Controllers\Penjualan::$pembelianModel
+#0 F:\VICKI\APP\penjualan\app\Controllers\Penjualan.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'F:\\VICKI\\APP\\pe...', 24)
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(824): App\Controllers\Penjualan->datapenjualan()
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#3 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#6 {main}
+CRITICAL - 2023-08-27 12:48:55 --> Undefined property: App\Controllers\Penjualan::$pembelianModel
+#0 F:\VICKI\APP\penjualan\app\Controllers\Penjualan.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'F:\\VICKI\\APP\\pe...', 24)
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(824): App\Controllers\Penjualan->datapenjualan()
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#3 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#6 {main}
+CRITICAL - 2023-08-27 14:11:14 --> Class "PHPExcel" not found
+#0 F:\VICKI\APP\penjualan\system\CodeIgniter.php(824): App\Controllers\Penjualan->processExcel()
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#5 {main}
+CRITICAL - 2023-08-27 14:11:31 --> Class "PHPExcel" not found
+#0 F:\VICKI\APP\penjualan\system\CodeIgniter.php(824): App\Controllers\Penjualan->processExcel()
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#5 {main}
+CRITICAL - 2023-08-27 14:11:45 --> Class "PHPExcel" not found
+#0 F:\VICKI\APP\penjualan\system\CodeIgniter.php(824): App\Controllers\Penjualan->processExcel()
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#5 {main}
+CRITICAL - 2023-08-27 14:13:14 --> Class "PHPExcel" not found
+#0 F:\VICKI\APP\penjualan\system\CodeIgniter.php(824): App\Controllers\Penjualan->processExcel()
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#5 {main}
+CRITICAL - 2023-08-27 14:14:03 --> Class "PHPExcel" not found
+#0 F:\VICKI\APP\penjualan\system\CodeIgniter.php(824): App\Controllers\Penjualan->processExcel()
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#5 {main}
+CRITICAL - 2023-08-27 14:14:20 --> Class "PHPExcel" not found
+#0 F:\VICKI\APP\penjualan\system\CodeIgniter.php(824): App\Controllers\Penjualan->processExcel()
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#5 {main}
+CRITICAL - 2023-08-27 14:16:16 --> Class "PHPExcel" not found
+#0 F:\VICKI\APP\penjualan\system\CodeIgniter.php(824): App\Controllers\Penjualan->processExcel()
+#1 F:\VICKI\APP\penjualan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#5 {main}
+ERROR - 2023-08-27 14:27:47 --> Table 'cafein.menu' doesn't exist
+CRITICAL - 2023-08-27 14:27:47 --> Table 'cafein.menu' doesn't exist
+#0 F:\VICKI\APP\penjualan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 F:\VICKI\APP\penjualan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 F:\VICKI\APP\penjualan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 F:\VICKI\APP\penjualan\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\VICKI\APP\penjualan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\VICKI\APP\penjualan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\VICKI\APP\penjualan\app\Controllers\Dashboard.php(28): CodeIgniter\BaseModel->findAll()
+#7 F:\VICKI\APP\penjualan\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#8 F:\VICKI\APP\penjualan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 F:\VICKI\APP\penjualan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\VICKI\APP\penjualan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 F:\VICKI\APP\penjualan\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\pe...')
+#12 {main}

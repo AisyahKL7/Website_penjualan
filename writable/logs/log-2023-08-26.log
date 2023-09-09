@@ -1,0 +1,42 @@
+ERROR - 2023-08-26 05:46:57 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-08-26 05:46:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 F:\VICKI\APP\cafein\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 F:\VICKI\APP\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 F:\VICKI\APP\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 F:\VICKI\APP\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 F:\VICKI\APP\cafein\app\Controllers\Dashboard.php(24): CodeIgniter\BaseModel->findAll()
+#5 F:\VICKI\APP\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 F:\VICKI\APP\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 F:\VICKI\APP\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\VICKI\APP\cafein\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 F:\VICKI\APP\cafein\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\ca...')
+#10 {main}
+ERROR - 2023-08-26 05:47:07 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-08-26 05:47:07 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 F:\VICKI\APP\cafein\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 F:\VICKI\APP\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 F:\VICKI\APP\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 F:\VICKI\APP\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 F:\VICKI\APP\cafein\app\Controllers\Dashboard.php(24): CodeIgniter\BaseModel->findAll()
+#5 F:\VICKI\APP\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 F:\VICKI\APP\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 F:\VICKI\APP\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\VICKI\APP\cafein\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 F:\VICKI\APP\cafein\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\ca...')
+#10 {main}
+ERROR - 2023-08-26 05:48:59 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-08-26 05:48:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 F:\VICKI\APP\cafein\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 F:\VICKI\APP\cafein\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 F:\VICKI\APP\cafein\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 F:\VICKI\APP\cafein\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 F:\VICKI\APP\cafein\app\Controllers\Dashboard.php(24): CodeIgniter\BaseModel->findAll()
+#5 F:\VICKI\APP\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 F:\VICKI\APP\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 F:\VICKI\APP\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\VICKI\APP\cafein\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 F:\VICKI\APP\cafein\system\Commands\Server\rewrite.php(43): require_once('F:\\VICKI\\APP\\ca...')
+#10 {main}
